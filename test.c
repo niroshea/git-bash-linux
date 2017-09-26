@@ -27,8 +27,9 @@ int main(){
 			printf("funcA_t create failed!\n"); 
 		}
 	}
-	while(1){
-		sleep(5);
-	}
-	return 0;	
+	pthread_exit(NULL);
+	//while(1){
+	//	sleep(5);
+	//}
+	//return 0;	
 }
